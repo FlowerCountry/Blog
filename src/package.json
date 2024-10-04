@@ -1,0 +1,42 @@
+{
+  "name": "flowercity",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "7.3.0"
+  },
+  "dependencies": {
+    "hexo": "^7.3.0",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.3.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-landscape": "^1.0.0"
+  },
+  "description": "FlowerCity | Blog",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FlowerCountry/FlowerCountry.github.io.git"
+  },
+  "keywords": [
+    "cz20101010!"
+  ],
+  "author": "FlowerCity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlowerCountry/FlowerCountry.github.io/issues"
+  },
+  "homepage": "https://github.com/FlowerCountry/FlowerCountry.github.io#readme"
+}

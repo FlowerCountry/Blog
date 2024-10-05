@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>/hello-world/</url>
-    <content><![CDATA[<h1>Hello World</h1>
+    <title>Florr-基础知识</title>
+    <url>/Florr-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</url>
+    <content><![CDATA[<h1>1. 等级</h1>
+<p>在Florr中，怪物的等级与卡的等级相同，一共有：</p>
+<ul>
+<li>Common 绿</li>
+<li>Unusual 黄</li>
+<li>Rare 蓝</li>
+<li>Epic 紫</li>
+<li>Legendary 红</li>
+<li>Mythic 青</li>
+<li>Ultra 粉</li>
+<li>Super 荧光绿</li>
+</ul>
+<p>等级越高的越牛，永恒的定理</p>
+<h1>2. 基础操作</h1>
+<ul>
+<li>M 打开/关闭地图</li>
+<li>C 合成</li>
+<li>V 图鉴</li>
+<li>X 天赋点</li>
+<li>Z 背包</li>
+</ul>
+<h1>3. 杂七杂八的</h1>
+<ol>
+<li>Super 怪会在屏幕上方显示</li>
+<li>Ultra只有输出前4名才会有掉落</li>
+<li>Super输出达到1%并且输出前20名才会有掉落</li>
+<li>毒伤不可以叠加</li>
+<li>玩家有70%是中国人，又有80%是OIer</li>
+</ol>
 ]]></content>
+      <tags>
+        <tag>Florr</tag>
+      </tags>
   </entry>
 </search>

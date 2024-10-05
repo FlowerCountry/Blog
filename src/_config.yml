@@ -5,11 +5,11 @@
 # Site
 title: FlowerCity
 subtitle: 'FlowerCity | Blog'
-description: ''
+description: 'Blog by FlowerCity'
 keywords:
 author: FlowerCity
-language: cn
-timezone: ''
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -103,3 +103,7 @@ deploy:
   repo: https://github.com/FlowerCountry/FlowerCountry.github.io
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
+
+markdown:
+  plugins:
+    - '@renbaoshuo/markdown-it-katex'

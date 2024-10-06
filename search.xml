@@ -37,4 +37,184 @@
         <tag>Florr</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Windows搭建c++环境</title>
+    <url>/Windwos%E6%90%AD%E5%BB%BAc++%E7%8E%AF%E5%A2%83/</url>
+    <content><![CDATA[<h1>1. 介绍</h1>
+<h2 id="工具">工具:</h2>
+<ul>
+<li>
+<p>Cmake</p>
+</li>
+<li>
+<p>Ninja</p>
+</li>
+<li>
+<p>Clang</p>
+</li>
+<li>
+<p>MinGW</p>
+</li>
+<li>
+<p>Git</p>
+</li>
+</ul>
+<p>Cmake: 一个强大的构建系统, 方便的链接你的头文件, 库等</p>
+<p>Ninja: 一个小型的构建系统, 适合日常使用, 在这里作为Visual Studio的替代品</p>
+<p>Clang: LLVM推出的C++编译器, 在速度上有很大的优势, 兼容各大主流操作系统</p>
+<p>MinGW: 为Clang提供库文件, 头文件</p>
+<p>Git: 强大的代码管理与传输工具</p>
+<h1>2. 下载</h1>
+<h2 id="官网">官网:</h2>
+<ul>
+<li>
+<p>Cmake<br>
+<a href="https://github.com/Kitware/CMake/releases/download/v3.30.4/cmake-3.30.4-windows-x86_64.msi">https://github.com/Kitware/CMake/releases/download/v3.30.4/cmake-3.30.4-windows-x86_64.msi</a></p>
+</li>
+<li>
+<p>Ninja<br>
+<a href="https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip">https://github.com/ninja-build/ninja/releases/download/v1.12.1/ninja-win.zip</a></p>
+</li>
+<li>
+<p>Clang<br>
+<a href="https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.8/LLVM-18.1.8-win64.exe">https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.8/LLVM-18.1.8-win64.exe</a></p>
+</li>
+<li>
+<p>MinGW<br>
+<a href="https://github.com/niXman/mingw-builds-binaries/releases/download/14.2.0-rt_v12-rev0/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0.7z">https://github.com/niXman/mingw-builds-binaries/releases/download/14.2.0-rt_v12-rev0/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0.7z</a></p>
+</li>
+<li>
+<p>Git<br>
+<a href="https://github.com/git-for-windows/git/releases/download/v2.46.2.windows.1/Git-2.46.2-64-bit.exe">https://github.com/git-for-windows/git/releases/download/v2.46.2.windows.1/Git-2.46.2-64-bit.exe</a></p>
+</li>
+</ul>
+<h2 id="本站">本站:</h2>
+<ul>
+<li>
+<p>Cmake<br>
+<a href="https://flowercity.xyz/files/cmake-3.30.4-windows-x86_64.rar">https://flowercity.xyz/files/cmake-3.30.4-windows-x86_64.rar</a></p>
+</li>
+<li>
+<p>Ninja<br>
+<a href="https://flowercity.xyz/files/ninja-win.zip">https://flowercity.xyz/files/ninja-win.zip</a></p>
+</li>
+<li>
+<p>Clang<br>
+<a href="https://flowercity.xyz/files/LLVM-18.1.8-win64.rar">https://flowercity.xyz/files/LLVM-18.1.8-win64.rar</a></p>
+</li>
+<li>
+<p>MinGW<br>
+<a href="https://flowercity.xyz/files/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0.7z">https://flowercity.xyz/files/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0.7z</a></p>
+</li>
+<li>
+<p>Git<br>
+<a href="https://flowercity.xyz/files/Git-2.46.2-64-bit.rar">https://flowercity.xyz/files/Git-2.46.2-64-bit.rar</a></p>
+</li>
+</ul>
+<h1>3. 安装</h1>
+<p>在自己电脑上找一个喜欢的位置</p>
+<p>这里本文选用 “C:\Program Files”</p>
+<p>将上一步下载好的东西都放进去</p>
+<p>注: 安装包如果有 Add Path 等字眼勾起来, 压缩包才执行这一步操作</p>
+<h2 id="添加环境变量">添加环境变量</h2>
+<p>在桌面 -&gt; 右键此电脑 -&gt; 属性 -&gt; 高级系统设置 -&gt; 环境变量 -&gt; 系统变量 -&gt; Path</p>
+<p>新建4个</p>
+<ul>
+<li>
+<p>你选用的目录/MinGW解压出来的文件夹名/bin</p>
+</li>
+<li>
+<p>你选用的目录/LLVM/bin</p>
+</li>
+<li>
+<p>你选用的目录/Ninja解压出来的文件夹名</p>
+</li>
+<li>
+<p>Cmake安装目录/bin ( 如果你之前安装的时候没有加 )</p>
+</li>
+<li>
+<p>Git安装目录/bin ( 如果你之前安装的时候没有加 )</p>
+</li>
+</ul>
+<p>重启电脑</p>
+<h1>4. 配置</h1>
+<h2 id="Visual-Studio-Code">Visual Studio Code</h2>
+<p>下载你喜欢的编辑器</p>
+<p>这里推荐 Visual Studio Code</p>
+<p>官网下载:</p>
+<p><a href="https://code.visualstudio.com/sha/download?build=stable&amp;os=win32-x64-user">https://code.visualstudio.com/sha/download?build=stable&amp;os=win32-x64-user</a></p>
+<p>本地下载:</p>
+<p><a href="https://flowercity.xyz/files/VSCodeUserSetup-x64-1.94.0.rar">https://flowercity.xyz/files/VSCodeUserSetup-x64-1.94.0.rar</a></p>
+<p>下载好后, 右键, 管理员身份安装</p>
+<p>( 没用管理员身份也没关系,但是为了以后配置时找目录方便,选择管理员身份安装至 C:\Program Files )</p>
+<p>安装好之后打开, 在最左边一排找到插件( Extensions )</p>
+<p>安装如下插件</p>
+<ul>
+<li>
+<p>Chinese (Simplified) (简体中文)</p>
+</li>
+<li>
+<p>clangd</p>
+</li>
+<li>
+<p>CMake</p>
+</li>
+<li>
+<p>CMake Tools</p>
+</li>
+</ul>
+<p>推荐的其余插件</p>
+<ul>
+<li>
+<p>Project Manager ( 多项目快捷切换 )</p>
+</li>
+<li>
+<p>koroFileHeader ( 文件头注释 )</p>
+</li>
+<li>
+<p>Polacode-2022 ( 代码截图 )</p>
+</li>
+<li>
+<p>GitLens – Gitsupercharged ( Git 项目管理 )</p>
+</li>
+<li>
+<p>indent-rainbow ( 彩色代码缩进 )</p>
+</li>
+<li>
+<p>GitHub Theme ( 好看的主题 )</p>
+</li>
+<li>
+<p>Atom Material Icons ( 好看的产品图标 )</p>
+</li>
+<li>
+<p>Material Icon Theme ( 好看的文件图标 )</p>
+</li>
+</ul>
+<h2 id="Git-仓库">Git 仓库</h2>
+<p>打开Github, 注册一个账号</p>
+<p>打开 <a href="https://github.com/FlowerCountry/cppStudy">https://github.com/FlowerCountry/cppStudy</a></p>
+<p>点击右上角的 Fork</p>
+<p>等待复制入你的账户后在右上角找到一个绿色的 Code</p>
+<p>点击</p>
+<p>选择 Https , 复制这个网址</p>
+<p>在你电脑上选一个你喜欢的地方( 如你的桌面 )</p>
+<p>右键, Open Git Bush Here</p>
+<p>输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> 你刚刚复制的网址</span><br></pre></td></tr></table></figure>
+<p>( 如果这一步不成功, 你可以回到Github上的代码仓库, 选择SSH, 复制, 重新来一次 )</p>
+<p>右键你下载下来的代码, 选择通过 Code 打开</p>
+<p>在左边找到CMake Tools的图标</p>
+<p>配置第一项, 更改工具包</p>
+<p>选择&quot; Clang x.x.x … &quot;</p>
+<p>注意不要选那个Clang_cl</p>
+<p>之后便可以快乐的写代码了</p>
+<p>源文件存在src目录下</p>
+<p>头文件存在include目录下</p>
+<h1>5. 完结撒花</h1>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
 </search>

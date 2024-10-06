@@ -1,15 +1,8 @@
-<!--
- * @Author: FlowerCity admin@flowercity.xyz
- * @Date: 2024-10-06 06:35:48
- * @LastEditors: FlowerCity admin@flowercity.xyz
- * @LastEditTime: 2024-10-06 06:37:26
- * @FilePath: \FlowerCountry.github.io\src\source\_posts\Florr-基础知识.md
--->
 ---
 title: Florr-基础知识
 date: 2024-10-06 06:35:48
 tags: Florr
-comments: true
+cover: img/Florr-Top.png
 ---
 
 # 1. 等级

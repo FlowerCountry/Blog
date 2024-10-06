@@ -1,10 +1,10 @@
 ---
 title: Windows搭建c++环境
-description: 使用Cmake+Ninja+Clang+MinGW交叉编译
 date: 2024-10-06 17:20:22
 tags:
     - Windows
     - C++
+cover: img/Windows-C++-Vscode.png
 ---
 
 # 1. 介绍

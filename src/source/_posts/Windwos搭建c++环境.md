@@ -4,11 +4,11 @@ date: 2024-10-06 17:20:22
 tags:
     - Windows
     - C++
-cover: img/Windows-C++-Vscode.png
+cover: img/Windows/Windows-C++-Vscode.png
 ---
 
-# 1. 介绍
-## 工具:
+## 1. 介绍
+### 工具:
 - Cmake
 
 - Ninja
@@ -29,8 +29,8 @@ MinGW: 为Clang提供库文件, 头文件
 
 Git: 强大的代码管理与传输工具
 
-# 2. 下载
-## 官网:
+## 2. 下载
+### 官网:
 - Cmake
 https://github.com/Kitware/CMake/releases/download/v3.30.4/cmake-3.30.4-windows-x86_64.msi
 
@@ -46,7 +46,7 @@ https://github.com/niXman/mingw-builds-binaries/releases/download/14.2.0-rt_v12-
 - Git
 https://github.com/git-for-windows/git/releases/download/v2.46.2.windows.1/Git-2.46.2-64-bit.exe
 
-## 本站:
+### 本站:
 
 - Cmake
 https://flowercity.xyz/files/cmake-3.30.4-windows-x86_64.rar
@@ -63,7 +63,7 @@ https://flowercity.xyz/files/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0.7z
 - Git
 https://flowercity.xyz/files/Git-2.46.2-64-bit.rar
 
-# 3. 安装
+## 3. 安装
 在自己电脑上找一个喜欢的位置
 
 这里本文选用 "C:\Program Files"
@@ -72,7 +72,7 @@ https://flowercity.xyz/files/Git-2.46.2-64-bit.rar
 
 注: 安装包如果有 Add Path 等字眼勾起来, 压缩包才执行这一步操作
 
-## 添加环境变量
+### 添加环境变量
 
 在桌面 -> 右键此电脑 -> 属性 -> 高级系统设置 -> 环境变量 -> 系统变量 -> Path
 
@@ -90,9 +90,9 @@ https://flowercity.xyz/files/Git-2.46.2-64-bit.rar
 
 重启电脑
 
-# 4. 配置
+## 4. 配置
 
-## Visual Studio Code
+### Visual Studio Code
 
 下载你喜欢的编辑器
 
@@ -140,7 +140,7 @@ https://flowercity.xyz/files/VSCodeUserSetup-x64-1.94.0.rar
 
 - Material Icon Theme ( 好看的文件图标 )
 
-## Git 仓库
+### Git 仓库
 
 打开Github, 注册一个账号
 
@@ -182,4 +182,4 @@ git clone 你刚刚复制的网址
 
 头文件存在include目录下
 
-# 5. 完结撒花
+## 5. 完结撒花

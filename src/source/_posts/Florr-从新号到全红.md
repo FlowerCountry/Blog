@@ -5,7 +5,7 @@ tags: Florr
 cover: img/Florr/Florr-Garden.png
 ---
 
-# 1. 新手教程
+## 1. 新手教程
 新手教程是一个非常恶心的东西,很多大佬也要打上几十分钟
 
 流程：
@@ -26,9 +26,9 @@ cover: img/Florr/Florr-Garden.png
 
 8. 将5个一样的卡合成(如果没有就再去打点)
 
-## ！！！完结撒花！！！
+### ！！！完结撒花！！！
 
-# 2. Garden
+## 2. Garden
 
 你可以先在发育一会,找几个黄怪,打到全黄之后,往右走
 
@@ -43,7 +43,7 @@ cover: img/Florr/Florr-Garden.png
 
 这些配卡都很不错,有伤害有回血,适合前期的新手
 
-# 3. Ant Home
+## 3. Ant Home
 走下边,来到一个被核弹炸过一样的地方,进传送门,来到ant home
 
 进入了蚂蚁洞后,打开地图,这里的地形很有特点,可以看成

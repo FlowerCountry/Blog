@@ -2,7 +2,7 @@
 title: Florr-从全红到出青
 date: 2024-10-06 20:35:00
 tags: Florr
-cover: img/Florr-All-Map.png
+cover: img/Florr/Florr-All-Map.png
 ---
 
 # 1. 蚂蚁洞

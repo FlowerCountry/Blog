@@ -2,7 +2,7 @@
 title: Florr-获得更多的青
 date: 2024-10-06 20:36:00
 tags: Florr
-cover: img/Florr-All.png
+cover: img/Florr/Florr-All.png
 ---
 
 在上一章我们讲到如何出第一个青，这一章就讲讲如何在别的地方打到更多的青

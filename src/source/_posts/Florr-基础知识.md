@@ -2,7 +2,7 @@
 title: Florr-基础知识
 date: 2024-10-06 06:35:48
 tags: Florr
-cover: img/Florr-Top.png
+cover: img/Florr/Florr-Top.png
 ---
 
 # 1. 等级

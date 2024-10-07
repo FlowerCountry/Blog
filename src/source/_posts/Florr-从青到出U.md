@@ -2,7 +2,7 @@
 title: Florr-从全青到出U
 date: 2024-10-06 20:37:00
 tags: Florr
-cover: img/Florr-All-Atack.png
+cover: img/Florr/Florr-All-Atack.png
 ---
 
 有很多地方都是出U的好地方

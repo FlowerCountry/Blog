@@ -2,7 +2,7 @@
 title: Florr-从新号到全红
 date: 2024-10-06 20:34:00
 tags: Florr
-cover: img/Florr-Garden.png
+cover: img/Florr/Florr-Garden.png
 ---
 
 # 1. 新手教程

@@ -49,19 +49,19 @@ https://github.com/git-for-windows/git/releases/download/v2.46.2.windows.1/Git-2
 ### 本站:
 
 - Cmake
-https://flowercity.xyz/files/cmake-3.30.4-windows-x86_64.rar
+https://panel.flowercity.xyz/file/cmake-3.30.4-windows-x86_64.rar
 
 - Ninja
-https://flowercity.xyz/files/ninja-win.zip
+https://panel.flowercity.xyz/file/ninja-win.zip
 
 - Clang
-https://flowercity.xyz/files/LLVM-18.1.8-win64.rar
+https://panel.flowercity.xyz/file/LLVM-18.1.8-win64.rar
 
 - MinGW
-https://flowercity.xyz/files/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0.7z
+https://panel.flowercity.xyz/file/x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0.7z
 
 - Git
-https://flowercity.xyz/files/Git-2.46.2-64-bit.rar
+https://panel.flowercity.xyz/file/Git-2.46.2-64-bit.rar
 
 ## 3. 安装
 在自己电脑上找一个喜欢的位置
@@ -104,7 +104,7 @@ https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
 
 本地下载:
 
-https://flowercity.xyz/files/VSCodeUserSetup-x64-1.94.0.rar
+https://panel.flowercity.xyz/file/VSCodeUserSetup-x64-1.94.2.rar
 
 下载好后, 右键, 管理员身份安装
 

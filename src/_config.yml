@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: FlowerCity
-subtitle: 'FlowerCity | Blog'
-description: 'Blog by FlowerCity'
+title: FlowerRealm
+subtitle: 'FlowerRealm | Blog'
+description: 'Blog by FlowerRealm'
 keywords:
-author: FlowerCity
+author: FlowerRealm
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://flowercity.xyz
+url: https://flowerrealm.top
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -100,7 +100,7 @@ theme: butterfly
 
 deploy:
   type: git
-  repo: https://github.com/FlowerCountry/FlowerCountry.github.io
+  repo: git@github.com:FlowerCountry/Blog.git
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
 
